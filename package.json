@@ -1,0 +1,12 @@
+{
+  "name": "swc-path-alias-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx swc src -d dist",
+    "run": "node dist"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.51",
+    "@swc/core": "^1.2.107"
+  }
+}
